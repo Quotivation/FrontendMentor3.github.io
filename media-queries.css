@@ -1,0 +1,138 @@
+@media only screen and (max-width: 910px) {
+    .newsletter-form__container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .newsletter__btn {
+      margin: 10px 0;
+      margin-left: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .stats__container {
+      flex-direction: column;
+    }
+  
+    .hero__img {
+      max-width: 80%;
+    }
+  
+    .stats__item:nth-child(2) {
+      margin-top: 120px;
+    }
+  
+    .section__container {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .section__texts {
+      order: 2;
+      width: 100%;
+      padding: 0px 80px;
+      margin-top: 30px;
+    }
+  
+    .section__figure {
+      order: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 735px) {
+    .startBtn__title {
+      margin: 0px 20px 0 20px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer__newsletter {
+      order: 1;
+    }
+    .footer__contact {
+      margin-top: 40px;
+      order: 2;
+    }
+  
+    .newsletter-form__container {
+      margin-left: auto;
+    }
+  
+    .section__img {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 560px) {
+    .header {
+      padding: 40px 30px;
+    }
+    .hero__title {
+      font-size: 33px;
+    }
+    .header__figure img {
+      width: 170px;
+    }
+    .hero__paragraph {
+      margin: 20px 0;
+      width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .header__figure img {
+      width: 120px;
+    }
+    .header__btn {
+      font-size: 12px;
+    }
+  
+    .hero__title {
+      font-size: 25px;
+    }
+    .hero__paragraph {
+      font-size: 12px;
+    }
+    .startBtn {
+      font-size: 14px;
+      padding: 12px 40px;
+    }
+    .section__title {
+      font-size: 22px;
+    }
+    .section__paragraph {
+      font-size: 12px;
+    }
+  
+    .startBtn__title {
+      font-size: 25px;
+    }
+    .footer {
+      padding: 50px;
+    }
+    .footer__paragraph {
+      font-size: 12px;
+    }
+    .newsletter__title {
+      font-size: 20px;
+    }
+    .newsletter-form__container{
+      margin: 0;
+      width: 100%;
+    }
+    .newsletter__input{
+      width: 100%;
+    }
+    .contact__logo{
+      width: 130px;
+    }
+  
+    .contact__info p {
+      font-size: 12px;
+    }
+  }
+  

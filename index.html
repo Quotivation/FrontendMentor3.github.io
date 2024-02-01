@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/524bdc4b1f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Huddle Landing Page Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css">
+  </head>
+  <body>
+    <header class="header">
+      <figure class="header__figure">
+        <img class="header__logo" src="images/logo.svg" alt="logo.svg" />
+      </figure>
+      <a class="header__btn" href="#">Try it Free</a>
+    </header>
+
+    <main class="hero">
+      <h1 class="hero__title">Build The Community Your Fans Will Love</h1>
+      <p class="hero__paragraph">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <a class="startBtn" href="#">Get Started For Free</a>
+      <img class="hero__img" src="images/screen-mockups.svg" alt="" />
+    </main>
+
+    <section class="stats__container">
+      <div class="stats__item">
+        <img
+          class="stats__img"
+          src="images/icon-communities.svg"
+          alt="icon-communities.svg"
+        />
+        <span class="stats__number comunity__number">1.4k+</span>
+        <p class="stats__text">Communities Formed</p>
+      </div>
+      <div class="stats__item">
+        <img
+          class="stats__img"
+          src="images/icon-messages.svg"
+          alt="icon-messages.svg"
+        />
+        <span class="stats__number messages__number">2.7m+</span>
+        <p class="stats__text">Messages Sent</p>
+      </div>
+    </section>
+    <div class="waveBg waveBg__top-desktop1"></div>
+    <section class="section__container grow__container">
+      <div class="section__texts grow__texts">
+        <h2 class="section__title grow__title">Grow Together</h2>
+        <p class="section__paragraph grow__paragraph" 2>
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </div>
+      <figure class="section__figure grow__figure">
+        <img
+          class="section__img grow__img"
+          src="images/illustration-grow-together.svg"
+          alt="illustration-grow-together.svg"
+        />
+      </figure>
+    </section>
+    <div class="waveBg waveBg__bottom-desktop1"></div>
+
+    <section class="section__container flowing__container">
+      <figure class="section__figure flowing__figure">
+        <img
+          class="section__img flowing__img"
+          src="images/illustration-flowing-conversation.svg"
+          alt="illustration-flowing-conversation.svg"
+        />
+      </figure>
+      <div class="section__texts flowing__texts">
+        <h2 class="section__title flowing__title">Flowing Conversations</h2>
+        <p class="section__paragraph flowing__paragraph">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </section>
+    <div class="waveBg waveBg__top-desktop2"></div>
+    <section class="section__container users__container">
+      <div class="section__texts users__texts">
+        <h2 class="section__title users__title">Your Users</h2>
+        <p class="section__paragraph users__paragraph">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </div>
+      <figure class="section__figure users__figure">
+        <img
+          class="section__img users__img"
+          src="images/illustration-your-users.svg"
+          alt="illustration-your-users.svg"
+        />
+      </figure>
+    </section>
+    <div class="waveBg waveBg__bottom-desktop2"></div>
+
+    <div class="startBtn__container">
+      <h2 class="startBtn__title">Ready To Build Your Community?</h2>
+      <a class="startBtn" href="#">Get Started For Free</a>
+    </div>
+    <div class="waveBg waveBg__top-footer"></div>
+
+    <footer class="footer">
+      <div class="footer__contact">
+        <img class="contact__logo" src="images/white-logo.svg" alt="logo.svg" />
+        <p class="footer__paragraph contact__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
+          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+        </p>
+        <div class="contact__info">
+          <img
+            class="contact__icon"
+            src="images/icon-phone.svg"
+            alt="icon-phone.svg"
+          />
+          <p>Phone: +1-543-123-4567</p>
+        </div>
+        <div class="contact__info">
+          <img class="contact__icon" src="images/icon-email.svg" alt="" />
+          <p>example@huddle.com</p>
+        </div>
+        <div class="contact__social">
+          <a
+            class="social__link"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
+            <i
+              class="social__icon social__icon1 fa-brands fa-square-facebook"
+            ></i>
+          </a>
+          <a
+            class="social__link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <i class="social__icon social__icon2 fa-brands fa-instagram"></i>
+          </a>
+          <a
+            class="social__link"
+            href="https://www.twitter.com/"
+            target="_blank"
+          >
+            <i
+              class="social__icon social__icon3 fa-brands fa-square-twitter"
+            ></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer__newsletter">
+        <h2 class="newsletter__title">Newsletter</h2>
+        <p class="footer__paragraph newsletter__paragraph">
+          To recieve tips on how to grow your community, sign up to our weekly
+          newsletter. We’ll never send you spam or pass on your email address
+        </p>
+        <div class="newsletter-form__container">
+          <input class="newsletter__input" type="text" />
+          <a class="newsletter__btn" href="#">Subscribe</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>
